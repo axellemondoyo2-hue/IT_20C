@@ -20,3 +20,18 @@ if(grade >= 94.5){
 }
 }
 computeGrade(85);
+
+function login(username,password){
+    if(username === "Axelle"){
+
+        if(password ===1234){
+            console.log("welcome user");
+        }else{
+            console.log("Invalid login Crendentials");
+    }
+} else {
+    console.log("invalid user");
+}
+}
+
+login("Axelle",123);
